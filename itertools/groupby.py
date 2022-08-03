@@ -18,3 +18,4 @@ for (device_id, port_id), group in grouped_data:
 grouped_data2 = groupby(data, key=lambda x: x["device_id"])
 for d, group in grouped_data2:
     print(list(group))
+# https://stackoverflow.com/questions/51060140/itertools-group-by-multiple-keys
