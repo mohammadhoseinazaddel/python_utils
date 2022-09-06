@@ -3,6 +3,6 @@
 
 ### content table
 
-for regex go to *checkers* folder
+for regex go to **checkers** folder
 
-for callstub array compare remove lines go to matcher folder
+for callstub array compare remove lines go to **matcher** folder
