@@ -6,3 +6,6 @@
 for regex go to **checkers** folder
 
 for callstub array compare remove lines go to **matcher** folder
+
+buitin packages to learn and use
+https://docs.python.org/3/library/
