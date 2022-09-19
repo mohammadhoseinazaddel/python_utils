@@ -15,3 +15,11 @@ use glob
 >>> glob.glob('./**/', recursive=True)
 ['./', './sub/']
 ```
+If the directory contains files starting with . they won’t be matched by default. For example, consider a directory containing card.gif and .card.gif:
+```python
+>>> import glob
+>>> glob.glob('*.gif')
+['card.gif']
+>>> glob.glob('.c*')
+['.card.gif']
+```
